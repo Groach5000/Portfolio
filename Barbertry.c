@@ -5,7 +5,6 @@
 #define seats 5 // this is 4 waiting seats and 1 in chair
 
 //Garrett Roach Sleeping Barber Problem
-//Last Updated: November 18, 2013
 
 pthread_mutex_t queue = PTHREAD_MUTEX_INITIALIZER;
 pthread_mutex_t wait = PTHREAD_MUTEX_INITIALIZER;
